@@ -10,7 +10,7 @@ potencia total que se esta consumiendo.
 
 Este dispositivo ya lo tengo construido y esta plenamente operativo. 
 
-Para enviar la informacion obtenida, utilizaré el protocolo ESP NOW de expresiff. Dado que va a estar instalado dentro de la caja de disyuntores, en concreto donde
+Para enviar la informacion obtenida, utilizaré el protocolo ESP NOW de Expressif. Dado que va a estar instalado dentro de la caja de disyuntores, en concreto donde
 antes se encontraba el ICP, que ya no es necesario, he habilitado el envio via OTA de nuevas programaciones, para no tener que estar abriendo
 y cerrando dichas cajas.
 
