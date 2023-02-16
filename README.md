@@ -16,8 +16,7 @@ antes se encontraba el ICP, que ya no es necesario.
 He habilitado el envio via OTA de nuevas programaciones, para no tener que estar abriendo y cerrando dichas cajas.
 
 Esquema y foto del dispositivo de medida remoto:
-![image](https://user-images.githubusercontent.com/48222471/219491638-14fb87c1-97d6-48e1-ba34-ba93350dca81.png)
-
+![image](https://user-images.githubusercontent.com/48222471/219496738-8e9a7dd9-9772-4752-a8ce-3a03f290bc8c.png)
 
 
          
