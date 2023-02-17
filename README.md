@@ -20,7 +20,7 @@ Esquema y foto del dispositivo de medida remoto:
 
 Advertencia: Si no estas familiarizado con los trabajos electricos, solo mira y no toques. 
 
-Y una vez instalado en la caja del ICP:
+Y una vez instalado en la caja del ICP y protegido del cableado:
 
 ![image](https://user-images.githubusercontent.com/48222471/219714987-1215b34d-6ef1-4d0c-9408-89d66fcf842e.png)
 
