@@ -11,9 +11,9 @@ potencia total que se esta consumiendo.
 Este dispositivo ya lo tengo construido y esta plenamente operativo. 
 
 Para enviar la informacion obtenida, utilizaré el protocolo ESP NOW de Expressif. Dado que va a estar instalado dentro de la caja de disyuntores, en concreto donde
-antes se encontraba el ICP, que ya no es necesario.
+antes se encontraba el ICP, que ya no es necesario y ya tenía desmontado, he habilitado el envio via OTA de nuevas programaciones, para no tener que estar abriendo y cerrando dicha caja.
 
-He habilitado el envio via OTA de nuevas programaciones, para no tener que estar abriendo y cerrando dichas cajas.
+La función de limitación de la corriente máxima que antes realizaba el ICP, ahora la realizan los contadores inteligentes.
 
 Esquema y foto del dispositivo de medida remoto:
 ![image](https://user-images.githubusercontent.com/48222471/219496738-8e9a7dd9-9772-4752-a8ce-3a03f290bc8c.png)
