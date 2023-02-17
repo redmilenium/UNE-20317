@@ -18,6 +18,11 @@ He habilitado el envio via OTA de nuevas programaciones, para no tener que estar
 Esquema y foto del dispositivo de medida remoto:
 ![image](https://user-images.githubusercontent.com/48222471/219496738-8e9a7dd9-9772-4752-a8ce-3a03f290bc8c.png)
 
+Y una vez instalado en la caja del ICP:
+
+![image](https://user-images.githubusercontent.com/48222471/219714644-a326c7a9-073b-46c9-9ab5-386df6488618.png)
+
+El toroide captador se encuentra en la parte superior y esta puesto sobre la linea de fase que alimenta a la vivienda.
 
          
 
