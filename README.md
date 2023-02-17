@@ -35,13 +35,19 @@ Como unidad receptora, en principio esto usando el proyecto de captar los precio
 La unidad remota envia el voltaje, la corriente, la potencia, la energia consumida, la frecuencia, el factor de potencia y la dirección grabada en el PZEM004:
 
   myDataSen.voltage= pzem.voltage();
+  
   myDataSen.current= pzem.current();
+  
   myDataSen.power = pzem.power();
+  
   myDataSen.energy = pzem.energy();
+  
   myDataSen.frequency = pzem.frequency();
+  
   myDataSen.pf = pzem.pf();
+  
   myDataSen.medidor=(pzem.readAddress(), HEX);
-
+  
   Estos datos se meten dentro de una Estructura y se envian via ESP NOW.
 
   Por ahora solo estoy monitorizando la potencia que se esta consumiendo en tiempo real.
