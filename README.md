@@ -29,5 +29,22 @@ El toroide captador se encuentra en la parte superior y esta puesto sobre la lin
 VISTA GENERAL DEL SISTEMA
 
 ![image](https://user-images.githubusercontent.com/48222471/219717953-2f2091a9-315f-438e-8bae-c7326fb000a9.png)
-         
+
+Como unidad receptora, en principio esto usando el proyecto de captar los precios de la electricidad PVPC. He modificado el programa, añadiendole la funcionalidad del ESP NOW, y ademas he modificado la rutina del display para que presente los watios que se estan consumiendo en cada momento. 
+
+La unidad remota envia el voltaje, la corriente, la potencia, la energia consumida, la frecuencia, el factor de potencia y la dirección grabada en el PZEM004:
+
+  myDataSen.voltage= pzem.voltage();
+  myDataSen.current= pzem.current();
+  myDataSen.power = pzem.power();
+  myDataSen.energy = pzem.energy();
+  myDataSen.frequency = pzem.frequency();
+  myDataSen.pf = pzem.pf();
+  myDataSen.medidor=(pzem.readAddress(), HEX);
+
+  Estos datos se meten dentro de una Estructura y se envian via ESP NOW.
+
+  Por ahora solo estoy monitorizando la potencia que se esta consumiendo en tiempo real.
+
+
 
