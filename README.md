@@ -26,6 +26,9 @@ Y una vez instalado en la caja del ICP y protegido del cableado:
 
 El toroide captador se encuentra en la parte superior y esta puesto sobre la linea de fase que alimenta a la vivienda.
 
+VISTA GENERAL DEL SISTEMA
+
+![image](https://user-images.githubusercontent.com/48222471/219717806-4439060c-9429-4a4f-bb69-bc092efdfa15.png)
 
          
 
