@@ -71,7 +71,7 @@ La unidad remota envia el voltaje, la corriente, la potencia, la energia consumi
         
   ¿Volveré a disponer de 30 segundos a 6,9 KW?
   
-  Para ello tengo que añadir el circuito receptor un SSR como este:
+  Para ello tengo que añadir al circuito receptor un SSR como este:
   
   ![image](https://user-images.githubusercontent.com/48222471/220998576-0d6f7752-51b5-4f61-851d-e7effba2a026.png)
 
