@@ -53,10 +53,12 @@ La unidad remota envia el voltaje, la corriente, la potencia, la energia consumi
   Por ahora solo estoy monitorizando la potencia que se esta consumiendo en tiempo real.
   
   En breve, el receptor, analizará la información recibida y en función de la potencia máxima contratada vigilará los excesos de consumo, desconectando durante
-  un breve espacio de tiempo electrodomesticos que lo permitan, es decir que no se reinicien al volver a conectarlos, como planchas,freidoras, planchas de asar, 
+  un breve espacio de tiempo electrodomesticos que lo permitan, es decir que no se reinicien al volver a conectarlos, como planchas, freidoras, planchas de asar, 
   termos de agua, etc. para comprobar si al volver la potencia a niveles contratados, el tiempo que nos permitela UNE 20317 se resetea y volvemos a disponer 
   del máximo permitido.
-
+  
+  Este experimento tiene como finalidad exprimir los limites de potencia electrica contratada para poder utilizar mas potencia por la que muy generosamente pagamos.
+  
   Ejemplo:
 
   Yo tengo contratados 4.6 KW. 
@@ -73,6 +75,7 @@ La unidad remota envia el voltaje, la corriente, la potencia, la energia consumi
   
   ![image](https://user-images.githubusercontent.com/48222471/220997570-21a34c25-ee4e-41be-96d9-9afdbcff1c2a.png)
   
+  En cuanto este montado y haya realizado alguna prueba, pondre los resultados.
   
   
   
