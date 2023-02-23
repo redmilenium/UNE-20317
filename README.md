@@ -73,8 +73,8 @@ La unidad remota envia el voltaje, la corriente, la potencia, la energia consumi
   
   Para ello tengo que añadir el circuito receptor un SSR como este:
   
-  ![image](https://user-images.githubusercontent.com/48222471/220997570-21a34c25-ee4e-41be-96d9-9afdbcff1c2a.png)
-  
+  ![image](https://user-images.githubusercontent.com/48222471/220998576-0d6f7752-51b5-4f61-851d-e7effba2a026.png)
+
   En cuanto este montado y haya realizado alguna prueba, pondre los resultados.
   
   
