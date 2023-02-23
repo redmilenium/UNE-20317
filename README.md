@@ -51,6 +51,37 @@ La unidad remota envia el voltaje, la corriente, la potencia, la energia consumi
   Estos datos se meten dentro de una Estructura y se envian via ESP NOW.
 
   Por ahora solo estoy monitorizando la potencia que se esta consumiendo en tiempo real.
+  
+  En breve, el receptor, analizará la información recibida y en función de la potencia máxima contratada vigilará los excesos de consumo, desconectando durante
+  un breve espacio de tiempo electrodomesticos que lo permitan, es decir que no se reinicien al volver a conectarlos, como planchas,freidoras, planchas de asar, 
+  termos de agua, etc. para comprobar si al volver la potencia a niveles contratados, el tiempo que nos permitela UNE 20317 se resetea y volvemos a disponer 
+  del máximo permitido.
+
+  Ejemplo:
+
+  Yo tengo contratados 4.6 KW. 
+         
+  Un exceso de 1,5 veces supondría alcanzar los 6,9 KW. Según la curva, dispondría de entre 30 segundos y 2 - 3 minutos,antes de que se produjera el disparo.
+         
+  Por debajo de 30 segundos consumiendo 1.5 veces la potencia contratada no debería desconectar el ICP nunca.
+         
+  Si a los 29 segundos, desconecto algún electrodomestico brevemente, un segundo por ejemplo, y mis valores de potencia consumida bajan a valores contratados (4,6 KW)
+        
+  ¿Volveré a disponer de 30 segundos a 6,9 KW?
+  
+  Para ello tengo que añadir el circuito receptor un SSR como este:
+  
+  ![image](https://user-images.githubusercontent.com/48222471/220997570-21a34c25-ee4e-41be-96d9-9afdbcff1c2a.png)
+  
+  
+  
+  
+  
+
+  
+  
+         
+         
 
 
 
