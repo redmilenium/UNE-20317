@@ -77,6 +77,20 @@ La unidad remota envia el voltaje, la corriente, la potencia, la energia consumi
 
   En cuanto este montado y haya realizado alguna prueba, pondre los resultados.
   
+  Y ahora ya dentro de su traje de luces:
+  
+  ![image](https://user-images.githubusercontent.com/48222471/236435262-e4639030-45f1-465d-99fe-1066424c791f.png)
+
+  Por cierto, la caja la he sacado de un sistema que dice corregir el factor de potencia y que nos ahorra mucho dinero en electricidad.
+  
+  Esto no es cierto por 2 razones: 
+  
+  1 - empiricamente he podido comprobar que al conectarlo a la red electrica no hacia que el factor de potencia se moviera lo mas minimo.
+  
+  2- Lleva un componente que trata de asemejarse a un condensador y que realmente esta relleno de arena, y que de de los dos terminales de que dispone, uno esta conectado a otros componentes y el otro terminal no esta conectado a ninguno, aunque si este soldado a la placa de circuito impreso.
+  
+  En resumen, solo enciende un par de led verdes y no hace nada mas, pero eso si, la caja me ha venido muy bien para mi proyecto (y que es por lo que pedi este "dispositivo" , ya que dispone de conector de CA tipo europeo y hueco suficiente para meter el ESP32, los 2 pulsadores, el buzzer y un alimentador CA/CC 5v.
+  
   
   
   
