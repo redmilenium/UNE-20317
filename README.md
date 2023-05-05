@@ -91,6 +91,8 @@ La unidad remota envia el voltaje, la corriente, la potencia, la energia consumi
   
   En resumen, solo enciende un par de led verdes y no hace nada mas, pero eso si, la caja me ha venido muy bien para mi proyecto (y que es por lo que pedi este "dispositivo" , ya que dispone de conector de CA tipo europeo y hueco suficiente para meter el ESP32, los 2 pulsadores, el buzzer y un alimentador CA/CC 5v.
   
+  El SSR no lo he instalado dentro y queda para posterior montaje en otro dispositivo.
+  
   
   
   
