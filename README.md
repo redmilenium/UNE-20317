@@ -89,9 +89,17 @@ La unidad remota envia el voltaje, la corriente, la potencia, la energia consumi
   
   2- Lleva un componente que trata de asemejarse a un condensador y que realmente esta relleno de arena, y que de de los dos terminales de que dispone, uno esta conectado a otros componentes y el otro terminal no esta conectado a ninguno, aunque si este soldado a la placa de circuito impreso.
   
-  En resumen, solo enciende un par de led verdes y no hace nada mas, pero eso si, la caja me ha venido muy bien para mi proyecto (y que es por lo que pedi este "dispositivo" , ya que dispone de conector de CA tipo europeo y hueco suficiente para meter el ESP32, los 2 pulsadores, el buzzer y un alimentador CA/CC 5v.
+  En resumen, solo enciende un par de led verdes y no hace nada mas, pero eso si, la caja me ha venido muy bien para mi proyecto (y que es por lo que pedi este "dispositivo") , ya que dispone de conector de CA tipo europeo y hueco suficiente para meter el ESP32, los 2 pulsadores, el buzzer y un alimentador CA/CC 5v.
   
   El SSR no lo he instalado dentro y queda para posterior montaje en otro dispositivo.
+  
+  Actualmente recibe la potencia que se esta consumiendo en la vivienda via ESP NOW y la muestra en el display. Tambien se baja de internet el precio de la electricidad PVPC para cada hora del día.  
+  
+  Si el consumo esta por debajo, en este caso de 4600 Watios, se queda encendido el led verde, si esta por encima, se apaga el led verde y se enciende el led rojo, ademas de indicarlo sonoramente mediante un  buzzer.
+  
+  Por ahora he detectado que consumiendo hasta 6000 Watios, puede estar mas de 30 segundos sin que el ICP del contador inteligente corte la corriente a la vivienda.
+  
+  
   
   
   
